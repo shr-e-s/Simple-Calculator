@@ -1,0 +1,360 @@
+body{
+    background-color: black;
+    display: flex;
+    position: absolute;
+    left: 35%;
+    top: 15%;
+}
+
+
+
+
+#outline{
+    height: 500px;
+    width: 450px;
+    border-radius: 12px;
+    background: rgb(0, 4, 7);
+    outline: 2px solid red;
+    color: red;
+    box-shadow: 0px 0px 50px;
+}
+
+#outline:hover{
+    transform: scale(1.08);
+    transition: all ease-in 0.6s;
+    color: red;
+    box-shadow: 0px 0px 1000px;
+    cursor: pointer;
+}
+
+
+
+
+.input{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    
+
+}
+
+.in{
+    height: 50px;
+    width: 300px;
+    outline: 3px solid aqua;
+    border-radius: 10px 10px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-family: s;
+    cursor: pointer;
+}
+
+.in:hover{
+    transform: scale(1.05);
+    color: aqua;
+    font-size: 30px;
+    font-family: s;
+    box-shadow: 0px 0px 50px;
+}
+
+
+
+
+
+
+.l1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+    /* background-color: aqua; */
+    
+}
+
+.r1{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.b3{
+    padding: 15px 15px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-family: s;
+    font-size: 15px;
+    cursor: pointer;
+    /* outline: 3px solid rgb(234, 33, 194); */
+}
+
+.b3:hover{
+    outline: 2px solid red;
+    color:red;
+    box-shadow: 0px 0px 50px;
+}
+.b2,.b4{
+    padding: 15px 18px;
+    border-radius: 10px;
+    color: white;
+    font-family: s;
+    cursor: pointer;
+    background-color: black;
+    font-size: 15px;
+}
+.b2:hover{
+    color: blue;
+    outline: blue 3px solid;
+    box-shadow: 0px 0px 50px;
+}
+.b4:hover{
+    outline: greenyellow 3px solid;
+    color: greenyellow;
+    box-shadow: 0px 0px 50px;
+}
+
+.b1{
+    padding: 15px 22px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    font-family: s;
+    font-size: 15px;
+    background-color: black;
+    
+}
+
+.b1:hover{
+    outline: 3px solid rgb(238, 67, 238);
+    color: rgb(238, 67, 238);
+    box-shadow: 0px 0px 50px;
+}
+
+
+
+
+
+
+
+.l2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 85px;
+    /* background-color: aqua; */
+    
+}
+
+.r2{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.b5,.b6,.b7,.b8{
+    padding: 15px 24px;
+    border-radius: 10px;
+    color: white;
+    font-family: s;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: black;
+}
+.b5:hover{
+    color: aqua;
+    outline: 3px solid aqua;
+    box-shadow: 0px 0px 50px;
+}
+.b6:hover{
+    color: crimson;
+    outline: crimson 3px solid;
+    box-shadow: 0px 0px 50px;
+}
+.b7:hover{
+    color: dodgerblue;
+    outline: 3px solid dodgerblue;
+    box-shadow: 0px 0px 50px;
+}
+.b8:hover{
+    color: orange;
+    outline: 3px solid orange;
+    box-shadow: 0px 0px 50px;
+}
+
+
+
+
+
+
+.l3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    /* background-color: aqua; */
+    
+}
+
+.r3{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.b9,.b10,.b11,.b12{
+    padding: 15px 24px;
+    border-radius: 10px;
+    color: white;
+    font-family: s;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: black;
+}
+.b9:hover{
+    color: blueviolet;
+    outline: 3px solid blueviolet;
+    box-shadow: 0px 0px 50px;
+}
+.b10:hover{
+    color: cornsilk;
+    outline: 3px solid cornsilk;
+    box-shadow: 0px 0px 50px;
+}
+.b11:hover{
+    color: pink;
+    outline: 3px pink solid;
+    box-shadow: 0px 0px 50px;
+}
+.b12:hover{
+    color: aqua;
+    outline: 3px solid aqua;
+    box-shadow: 0px 0px 50px;
+}
+
+
+
+
+
+
+
+
+.l4{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 115px;
+    /* background-color: aqua; */
+    
+}
+
+.r4{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.b13,.b14,.b15,.b16{
+    padding: 15px 24px;
+    border-radius: 10px;
+    color: white;
+    font-family: s;
+    background-color: black;
+    cursor: pointer;
+    font-size: 15px;
+}
+.b13:hover{
+    color: red;
+    outline: 3px solid red;
+    box-shadow: 0px 0px 50px;
+}
+.b14:hover{
+    color: yellow;
+    outline: 3px solid yellow;
+    box-shadow: 0px 0px 50px;
+}
+.b15:hover{
+    color: white;
+    outline: 3px solid white;
+    box-shadow: 0px 0px 50px;
+}
+.b16:hover{
+    color: salmon;
+    outline: 3px solid salmon;
+    box-shadow: 0px 0px 50px;
+}
+
+
+
+
+
+
+
+.l5{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 130px;
+    /* background-color: aqua; */
+    
+}
+
+.r5{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 23px;
+}
+
+
+.b17,.b18{
+    padding: 15px 24px;
+    border-radius: 10px;
+    color: white;
+    font-family: s;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: black;
+}
+
+.b19{
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-family: s;
+    font-size: 15px;
+    background-color: black;
+}
+
+
+.b20{
+    padding: 15px 24px;
+    border-radius: 10px;
+    color: white;
+    font-family: s;
+    cursor: pointer;
+    background-color: black;
+    font-size: 15px;
+}
+.b17:hover{
+    color: greenyellow;
+    outline: 3px solid greenyellow;
+    box-shadow: 0px 0px 50px;
+}
+.b18:hover{
+    color: gold;
+    outline: 3px solid gold;
+    box-shadow: 0px 0px 50px;
+}
+.b19:hover{
+    color: firebrick;
+    outline: 3px solid firebrick;
+    box-shadow: 0px 0px 50px;
+}
+.b20:hover{
+    color: rgb(8, 160, 255);
+    outline: rgb(8, 160, 255) 3px solid;
+    box-shadow: 0px 0px 50px;
+}
